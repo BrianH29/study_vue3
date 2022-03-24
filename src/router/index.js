@@ -7,6 +7,11 @@ const router = createRouter({
       path: '/study/ref',
       name: 'ref',
       component: () => import('@/views/chapter/studyRef.vue')
+    },
+    {
+      path: '/study/props',
+      name: 'props',
+      component: () => import('@/views/chapter/studyProps.vue')
     }
   ]
 })
